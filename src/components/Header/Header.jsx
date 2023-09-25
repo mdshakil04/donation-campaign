@@ -1,10 +1,38 @@
 import { NavLink } from "react-router-dom";
-
 const Header = () => {
+    // const activeTab = (history, path) => {
+    //     if (history.location.pathname === path) {
+    //       return { color: "#1fa2f1" };
+    //     }
+    //   };
     const links = <>
-            <li><NavLink to="/">Home</NavLink></li>
-            <li><NavLink to="/donation">Donation</NavLink></li>
-            <li><NavLink to="/statistics">Statistics</NavLink></li>
+            <li className=" text-lg"><NavLink
+                style={({ isActive }) => {
+                    return {
+                      fontWeight: isActive ? "bold" : "",
+                      background:isActive ? "white" : "white",
+                      color: isActive ? "red" : "black",
+                    };
+                  }}
+                to="/">Home</NavLink></li>
+            <li className=" text-lg"><NavLink
+                style={({ isActive }) => {
+                    return {
+                      fontWeight: isActive ? "bold" : "",
+                      background:isActive ? "white" : "white",
+                      color: isActive ? "red" : "black",
+                    };
+                  }}
+                to="/donation">Donation</NavLink></li>
+            <li className=" text-lg"><NavLink 
+                style={({ isActive }) => {
+                    return {
+                      fontWeight: isActive ? "bold" : "",
+                      background:isActive ? "white" : "white",
+                      color: isActive ? "red" : "black",
+                    };
+                  }}
+                to="/statistics">Statistics</NavLink></li>
         </>
   return (
     <div>
@@ -37,7 +65,7 @@ const Header = () => {
           <img src="/src/assets/image/Logo.png" alt="Logo" />
         </div>
         <div className="navbar-end hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 gap-10">
+          <ul className="menu menu-horizontal px-1 gap-4">
             {links}
           </ul>
         </div>

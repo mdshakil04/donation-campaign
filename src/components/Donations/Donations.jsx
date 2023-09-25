@@ -1,7 +1,7 @@
 const Donations = () => {
     return (
-        <div>
-            <h1>Donation Components</h1>
+        <div className=" text-center">
+            <h1 className=" text-6xl">Donation Components</h1>
         </div>
     );
 };

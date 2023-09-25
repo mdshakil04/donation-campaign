@@ -1,8 +1,8 @@
 const Banner = () => {
   return (
-    <div>
+    <div className=" md:p-12 p-2">
       <div
-        className="bg-opacity-90 hero min-h-screen w-auto "
+        className="bg-opacity-90 hero lg:h-[600px] w-auto "
         style={{
           backgroundImage:
             "url(https://i.ibb.co/k0ybRyL/Banner-bg.png)",

@@ -1,11 +1,11 @@
-import AllCatagories from "../AllCatagories/AllCatagories";
+import AllCategories from "../AllCategories/AllCategories";
 import Banner from "../Banner/Banner";
 
 const Home = () => {
     return (
         <div className="">
             <Banner></Banner>
-            <AllCatagories></AllCatagories>
+            <AllCategories></AllCategories>
         </div>
     );
 };
