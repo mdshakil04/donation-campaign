@@ -1,0 +1,148 @@
+[
+      {
+        "id":"1",
+        "picture": "https://i.ibb.co/rvxxmNK/Health.png",
+        "donation_pic": "https://i.ibb.co/tpRnbT4/Rectangle-Health.png",
+        "title": "Clean water for children",
+        "category": "Health",
+        "category_bg_color": "#3498db",
+        "card_bg_color": "#ffffff",
+        "text_button_bg_color": "#2ecc71",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "price": "290"
+      },
+      {
+        "id":"2",
+        "picture": "https://i.ibb.co/WxKc9s2/Education.png",
+        "donation_pic": "https://i.ibb.co/tpRnbT4/Rectangle-Education.png",
+        "title": "Good education",
+        "category": "Education",
+        "category_bg_color": "#e74c3c",
+        "card_bg_color": "#ffffff",
+        "text_button_bg_color": "#3498db",
+        "description": "Suspendisse in quam congue, cursus dui at, lacinia urna.",
+        "price": "290" 
+      },
+      {
+        "id":"3",
+        "picture": "https://i.ibb.co/HnfMR8P/Clothing.png",
+        "donation_pic": "https://i.ibb.co/tpRnbT4/Rectangle-Clothing.png",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg_color": "#f1c40f",
+        "card_bg_color": "#ffffff",
+        "text_button_bg_color": "#e74c3c",
+        "description": "Phasellus nec est eu quam ullamcorper fringilla.",
+        "price": "290" 
+      },
+      {
+        "id":"4",
+        "picture": "https://i.ibb.co/BGXV98Q/Food.png",
+        "donation_pic": "https://i.ibb.co/tpRnbT4/Rectangle-Food.png",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg_color": "#9b59b6",
+        "card_bg_color": "#ffffff",
+        "text_button_bg_color": "#f1c40f",
+        "description": "Aenean eu velit a nunc vehicula dictum eget id massa.",
+        "price": "290" 
+      },
+      {
+        "id":"5",
+        "picture": "https://i.ibb.co/BGXV98Q/Food.png",
+        "donation_pic": "https://i.ibb.co/tpRnbT4/Rectangle-Food.png",
+        "title": "Better Food for Everyone",
+        "category": "Food",
+        "category_bg_color": "#e67e22",
+        "card_bg_color": "#ffffff",
+        "text_button_bg_color": "#9b59b6",
+        "description": "Vivamus eu urna eget nulla auctor vulputate ut ac risus.",
+        "price": "290" 
+      },
+      {
+        "id":"6",
+        "picture": "https://i.ibb.co/HnfMR8P/Clothing.png",
+        "donation_pic": "https://i.ibb.co/tpRnbT4/Rectangle-Clothing.png",
+        "title": "Used Clothing Drive",
+        "category": "Clothing",
+        "category_bg_color": "#3498db",
+        "card_bg_color": "#ffffff",
+        "text_button_bg_color": "#e67e22",
+        "description": "Pellentesque ac velit in nulla volutpat aliquam.",
+        "price": "290" 
+      },
+      {
+        "id":"7",
+        "picture": "https://i.ibb.co/WxKc9s2/Education.png",
+        "donation_pic": "https://i.ibb.co/tpRnbT4/Rectangle-Education.png",
+        "title": "Good education",
+        "category": "Education",
+        "category_bg_color": "#e74c3c",
+        "card_bg_color": "#ffffff",
+        "text_button_bg_color": "#3498db",
+        "description": "Sed in ex sed tellus volutpat fermentum vel ac nisi.",
+        "price": "290" 
+      },
+      {
+        "id":"8",
+        "picture": "https://i.ibb.co/rvxxmNK/Health.png",
+        "donation_pic": "https://i.ibb.co/tpRnbT4/Rectangle-Health.png",
+        "title": "Clean water for children",
+        "category": "Health",
+        "category_bg_color": "#f1c40f",
+        "card_bg_color": "#ffffff",
+        "text_button_bg_color": "#e74c3c",
+        "description": "Donec vel libero in ante iaculis ullamcorper at vitae justo.",
+        "price": "290" 
+      },
+      {
+        "id":"9",
+        "picture": "https://i.ibb.co/rvxxmNK/Health.png",
+        "donation_pic": "https://i.ibb.co/tpRnbT4/Rectangle-Health.png",
+        "title": "Clean water for children",
+        "category": "Health",
+        "category_bg_color": "#9b59b6",
+        "card_bg_color": "#ffffff",
+        "text_button_bg_color": "#f1c40f",
+        "description": "Mauris venenatis arcu non hendrerit hendrerit.",
+        "price": "290" 
+      },
+      {
+        "id":"10",
+        "picture": "https://i.ibb.co/WxKc9s2/Education.png",
+        "donation_pic": "https://i.ibb.co/tpRnbT4/Rectangle-Education.png",
+        "title": "Good education",
+        "category": "Education",
+        "category_bg_color": "#e67e22",
+        "card_bg_color": "#ffffff",
+        "text_button_bg_color": "#9b59b6",
+        "description": "Fusce varius risus id justo rhoncus efficitur.",
+        "price": "290" 
+      },
+      {
+        "id":"11",
+        "picture": "https://i.ibb.co/HnfMR8P/Clothing.png",
+        "donation_pic": "https://i.ibb.co/tpRnbT4/Rectangle-Clothing.png",
+        "title": "Better Food for Everyone",
+        "category": "Clothing",
+        "category_bg_color": "#3498db",
+        "card_bg_color": "#ffffff",
+        "text_button_bg_color": "#e67e22",
+        "description": "Integer id velit aliquet, rhoncus eros a, euismod urna.",
+        "price": "290" 
+      },
+      {
+        "id":"12",
+        "picture": "https://i.ibb.co/BGXV98Q/Food.png",
+        "donation_pic": "https://i.ibb.co/tpRnbT4/Rectangle-Food.png",
+        "title": "Food",
+        "category": "Better Food for Everyone",
+        "category_bg_color": "#e74c3c",
+        "card_bg_color": "#ffffff",
+        "text_button_bg_color": "#3498db",
+        "description": "Aenean cursus nunc in efficitur vehicula.",
+        "price": "290" 
+      }
+]
+
+  
