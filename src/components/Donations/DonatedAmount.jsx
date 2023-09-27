@@ -1,10 +1,11 @@
 const DonatedAmount = ({ donation }) => {
   const {price, title, picture,donation_pic,card_category, category_bg_color, card_title_color, card_button_bg_color } = donation;
+  
   return (
     <div>
-        <div style={{background:`${ category_bg_color}`}} className="card card-side bg-base-100 shadow-xl">
+        <div style={{background:`${ category_bg_color}`}} className="card card-side bg-base-100 shadow-xl my-4">
             <figure>
-                <img className=" h-full"
+                <img className="h-full"
                     src={picture}
                     alt="Image"
                 />

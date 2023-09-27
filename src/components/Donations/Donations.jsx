@@ -22,7 +22,7 @@ const Donations = () => {
   }, [donations]);
   return (
     <div className=" text-center">
-      <div className=" text-center grid grid-cols-2 gap-8 mx-auto container mt-8">
+      <div className=" text-center lg:grid lg:grid-cols-2 gap-8 mx-auto container mt-8 p-4">
         {donateAmount.slice(0, showDataLength).map((donation) => (
           <DonatedAmount key={donation.id} donation={donation}></DonatedAmount>
         ))}

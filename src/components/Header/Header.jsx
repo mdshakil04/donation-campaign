@@ -1,10 +1,6 @@
 import { NavLink } from "react-router-dom";
 const Header = () => {
-    // const activeTab = (history, path) => {
-    //     if (history.location.pathname === path) {
-    //       return { color: "#1fa2f1" };
-    //     }
-    //   };
+   
     const links = <>
             <li className=" text-lg"><NavLink
                 style={({ isActive }) => {
@@ -33,6 +29,15 @@ const Header = () => {
                     };
                   }}
                 to="/statistics">Statistics</NavLink></li>
+            <li className=" text-lg"><NavLink 
+                style={({ isActive }) => {
+                    return {
+                      fontWeight: isActive ? "bold" : "",
+                      background:isActive ? "white" : "white",
+                      color: isActive ? "red" : "black",
+                    };
+                  }}
+                to="/gallery">Gallery</NavLink></li>
         </>
   return (
     <div>
